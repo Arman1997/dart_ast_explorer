@@ -1,0 +1,39 @@
+name: dart_ast_explorer
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  analyzer: ^6.2.0
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+fonts:
+  - family: Sono
+    fonts:
+      - asset: Sono_Proportional-ExtraLight.ttf
+      - asset: Sono_Proportional-Light.ttf
+      - asset: Sono_Proportional-Regular.ttf
+      - asset: Sono_Proportional-Medium.ttf
+      - asset: Sono_Proportional-SemiBold.ttf
+      - asset: Sono_Proportional-Bold.ttf
+      - asset: Sono_Proportional-ExtraBold.ttf
+      - asset: Sono-ExtraLight.ttf
+      - asset: Sono-Light.ttf
+      - asset: Sono-Regular.ttf
+      - asset: Sono-Medium.ttf
+      - asset: Sono-SemiBold.ttf
+      - asset: Sono-Bold.ttf
+      - asset: Sono-ExtraBold.ttf

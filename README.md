@@ -1,2 +1,3 @@
 # dart_ast_explorer
-Application for exploring AST of Dart code
+
+A new Flutter project.
