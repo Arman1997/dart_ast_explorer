@@ -18,22 +18,8 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+  fonts:
+    - family: Sono
+      fonts:
+        - asset: assets/Sono-Regular.ttf
   uses-material-design: true
-
-fonts:
-  - family: Sono
-    fonts:
-      - asset: Sono_Proportional-ExtraLight.ttf
-      - asset: Sono_Proportional-Light.ttf
-      - asset: Sono_Proportional-Regular.ttf
-      - asset: Sono_Proportional-Medium.ttf
-      - asset: Sono_Proportional-SemiBold.ttf
-      - asset: Sono_Proportional-Bold.ttf
-      - asset: Sono_Proportional-ExtraBold.ttf
-      - asset: Sono-ExtraLight.ttf
-      - asset: Sono-Light.ttf
-      - asset: Sono-Regular.ttf
-      - asset: Sono-Medium.ttf
-      - asset: Sono-SemiBold.ttf
-      - asset: Sono-Bold.ttf
-      - asset: Sono-ExtraBold.ttf

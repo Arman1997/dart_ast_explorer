@@ -119,22 +119,22 @@ class MainPage extends StatelessWidget {
                         return RichText(
                           text: TextSpan(
                             text: preSelectionSubCode,
-                            style: const TextStyle(fontFamily: "Sono", backgroundColor: Colors.transparent, color: Colors.black),
+                            style: const TextStyle(fontFamily: 'Sono', backgroundColor: Colors.transparent, color: Colors.black),
                             children: [
-                              TextSpan(text: selectionCode, style: const TextStyle(backgroundColor: Colors.yellow, fontFamily: "Sono")),
-                              TextSpan(text: postSelectionSubCode, style: const TextStyle(fontFamily: "Sono", backgroundColor: Colors.transparent, color: Colors.black))
+                              TextSpan(text: selectionCode, style: const TextStyle(backgroundColor: Colors.yellow, fontFamily: 'Sono')),
+                              TextSpan(text: postSelectionSubCode, style: const TextStyle(fontFamily: 'Sono', backgroundColor: Colors.transparent, color: Colors.black))
                             ]
                             )
                           );
                       } 
 
                       return RichText(
-                        text: const TextSpan(text: exampleCode, style: TextStyle(fontFamily: "Sono", backgroundColor: Colors.transparent, color: Colors.black)),
+                        text: const TextSpan(text: exampleCode, style: TextStyle(fontFamily: 'Sono', backgroundColor: Colors.transparent, color: Colors.black)),
                       );
                     },
                     child: const Text(
                       exampleCode,
-                      style: TextStyle(fontFamily: "Sono"),
+                      style: TextStyle(fontFamily: 'Sono'),
                     ),
                   ))),
               SizedBox(
@@ -354,7 +354,7 @@ final class TokenStyle {
       color: _color,
       fontSize: _fontSize,
       fontWeight: _fontWeight,
-      fontFamily: "Sono"
+      fontFamily: 'Sono'
     );
   }
 }
@@ -603,7 +603,7 @@ class AstNodeDescriptorBuilder extends GeneralizingAstVisitor {
     }) {
     _descriptor = ASTNodeDescriptor(
       runtimeTypeName: _formatedRuntimeTypeName(node.runtimeType.toString()),
-      style: style.copyWith(fontFamily: "Sono"),
+      style: style.copyWith(fontFamily: 'Sono'),
       children: _descriptorsFrom(node.childEntities),
       sourcePosition: AstNodeSourcePosition.fromSyntaxNode(node),
     );
